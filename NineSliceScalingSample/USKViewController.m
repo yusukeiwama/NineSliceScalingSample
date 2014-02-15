@@ -24,6 +24,17 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 300, 88.0)];
+    
+    UIImage *image = [UIImage imageNamed:@"yellowButton"];
+    
+    imageView.image = image;
+    
+    
+    [self.view addSubview:imageView];
+    
 }
 
 @end
+
